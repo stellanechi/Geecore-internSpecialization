@@ -1,0 +1,36 @@
+
+body{
+    background-image:linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%),  url(/assets/background\ image.webp);
+    background-position: contain;
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  height: 100vh;
+  color: #FFFFFF;
+}
+
+.logo{
+    padding-left: 40px;
+    padding-top: 40px;
+}
+
+.yellow{
+  color: rgba(236, 187, 43, 0.5);
+  
+}
+
+th{
+  background-color: rgba(236, 187, 43, 0.5);;;
+}
+
+.table-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -120px;
+}
+
+table, th, td {
+    margin-top: 230px;
+    padding: auto;
+    
+}

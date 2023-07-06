@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <link rel="stylesheet" href="/login.css">
+</head>
+<body>
+<!-- START OF FORM SECTION -->
+<div class="logo">
+          <img src="/assets/logo.png" width="60px" alt="" />
+        </div>
+
+<div class="container">
+    <div class="form"> 
+        <h1> Login Form  </h1> <br>
+    <form action="http://192.168.1.44:4000/upload"  method="post" enctype="multipart/form-data">
+   
+
+        <label for="email" > Email: </label>
+        <input type="email" class="input-feild" id="email" name="email" placeholder="Enter your email address" required>
+         <br>
+         
+         <label for="Password"> Enter password: </label>
+         <input type="password" class="input-feild" id="password"  name="password" placeholder="***************">
+         <br>
+
+         
+         <button class="submit-button"> Submit </button>
+         <p class="footer"> Don't have an account?  <a href="/signup.html" target="_blank"><span class="login"> Signup now </span></a></p>
+    </form>
+ </div>
+</div>
+
+<!-- END OF FORM SECTION -->
+</body>
+</html>

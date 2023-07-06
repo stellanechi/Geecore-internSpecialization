@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/signup.css">
+</head>
+<body>
+<!-- START OF FORM SECTION -->
+
+<div class="logo">
+          <img src="/assets/logo.png" width="60px" alt="" />
+        </div>
+<div class="container"> 
+
+    <div class="form"> 
+        <h1> Signup Form  </h1> <br>
+    <form action="http://192.168.1.44:4000/upload"  method="post" enctype="multipart/form-data">
+   
+        <label for="fullname" > Full Name: </label>
+        <input type="text" class="input-feild" id="fullname" name="fullname" placeholder="Enter your name" required>
+        <br>
+
+        <label for="email" > Email: </label>
+        <input type="email" class="input-feild" id="email" name="email" placeholder="Enter your email address" required>
+         <br>
+         
+         <label for="Password"> Enter password: </label>
+         <input type="password" class="input-feild" id="password"  name="password" placeholder="***************">
+         <br>
+  
+    <div >
+         <label for="stateoforigin"> State of Origin </label>
+         <select name="state" class="state"> 
+         <option value=" gender"> Click to select... </option>
+         <option value="Abia"> Abia</option>
+         <option value="Adamawa">Adamawa </option>
+         <option value="Akwa Ibom"> Akwa Ibom  </option>
+         <option value="Anambra"> Anambra </option>
+          <option value="Bauchi"> Bauchi </option>
+           <option value="Bayelsa"> Bayelsa </option>
+            <option value="Benue"> Benue </option>
+             <option value="Borno"> Borno </option>
+              <option value="cross-river"> Cross river </option>
+               <option value="delta"> Delta </option>
+                <option value="ebonyi"> Ebonyi  </option>
+                 <option value="edo"> Edo </option>
+                  <option value="ekiti"> Ekiti  </option>
+                   <option value="enugu"> Enugu  </option>
+                    <option value="gombe"> Gombe </option>
+                 <option value="imo"> Imo </option>
+                 <option value="jigawa"> Jigawa  </option>
+                 <option value="kaduna">  Kaduna </option>
+                 <option value="kano"> Kano </option>
+                 <option value="kastina"> Kastina  </option>
+                 <option value="kebbi"> Kebbi </option>
+        </select>
+        </div>
+
+    
+         <br>
+         <!-- <hr> -->
+    <div class="gender">
+        <label for="gender"> <span class="text-size">Select Gender: </span> </label> <br>
+         <input type="radio" class="gender" name="gender" value="male"> Male <br> 
+         <input type="radio" class="gender" name="gender" value="female"> Female  <br>
+         <input type="radio" class="gender" name="gender" value="other"> Other <br>
+    </div>
+         <br>
+         
+         <input type="file" name="picture" class="file" required>
+         <br>
+         
+         <button class="submit-button"> Submit </button>
+         <p class="footer"> Already have an account?  <a href="/login.html" target="_blank"><span class="login"> Login now </span></a></p>
+    </form>
+ </div>
+</div>
+
+<!-- END OF FORM SECTION -->
+</body>
+</html>
