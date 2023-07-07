@@ -127,6 +127,11 @@ li a {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
+.get-started a{
+   text-decoration: none;
+   color: black;
+}
+
 .get-started {
   margin-top: 100px;
   height: 60px;
@@ -138,4 +143,31 @@ li a {
   border-style: none;
   font-weight: 800;
   font-size: 20px;
+  /* transition */
+  transition: width 2s, height 4s;
+  animation-name: button;
+  animation-duration: 9s;
 }
+
+@keyframes button{
+  0%{
+    background-color:rgba(236, 187, 43, 0.6);
+  }
+
+  25%{
+    background-color: rgba(255, 255, 255, 0.4);;
+  }
+
+  50%{
+    background-color: rgba(236, 187, 43, 0.6);
+  }
+
+  75%{
+    background-color:rgba(236, 187, 43, 0.6);
+  }
+
+  100%{
+    background-color: #f8f9fa;
+  }
+}
+

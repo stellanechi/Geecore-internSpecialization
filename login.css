@@ -21,7 +21,7 @@ body {
 .container {
   display: flex;
   justify-content: center;
-  /* margin-top: 80px; */
+  margin-top: -15px;
 }
 
 .form {
@@ -46,7 +46,7 @@ h1 {
   margin-bottom: 10px;
   height: 45px;
   width: 400px;
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.6);
   border-radius: 10px;
   border-style: none;
   padding-left: 15px;
