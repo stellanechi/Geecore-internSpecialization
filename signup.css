@@ -5,39 +5,42 @@
 }
 
 body {
-  background-image:linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%),  url(/assets/background\ image.webp);
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.5) 50%,
+      rgba(0, 0, 0, 0.5) 50%
+    ),
+    url(/assets/background\ image.webp);
   background-position: center;
   /* background-repeat: no-repeat; */
   background-size: cover;
   height: 100%;
 }
 
-.logo{
-    /* margin-left: -40px; */
-    padding-left: 40px;
-    padding-top: 40px;
+.logo {
+  /* margin-left: -40px; */
+  padding: 10px 20px;
 }
-
-
 
 .container {
   display: flex;
   justify-content: center;
-  margin-top: -120px;
+  /* margin-top: -120px; */
 }
 
 .form {
-  margin-top: 42px;
+  margin-top: -60px;
   width: 470px;
   height: 640px;
   background: rgba(0, 0, 0, 0.2);
   border-radius: 9px;
-  padding-left: 32px;
-  color: #FFFFFF;
+  padding: 0 20px;
+  color: #ffffff;
 }
 
 h1 {
-  margin-left: 80px;
+  /* margin-left: 80px; */
+  text-align: center;
   margin-top: 30px;
   font-size: 45px;
   font-weight: bold;
@@ -47,7 +50,7 @@ h1 {
 .input-feild {
   margin-bottom: 10px;
   height: 45px;
-  width: 400px;
+  width: 100%;
   background-color: rgba(255, 255, 255, 0.4);
   border-radius: 10px;
   border-style: none;
@@ -56,7 +59,7 @@ h1 {
 
 .state {
   height: 45px;
-  width: 400px;
+  width: 100%;
   background-color: rgba(255, 255, 255, 0.7);
   border-radius: 10px;
   margin-bottom: 10px;
@@ -69,7 +72,7 @@ h1 {
 
 .submit-button {
   height: 50px;
-  width: 400px;
+  width: 100%;
   background-color: rgba(236, 187, 43, 0.5);
   border-radius: 10px;
   border-style: none;
@@ -80,10 +83,10 @@ h1 {
   font-size: 19px;
 }
 
-.footer{
+.footer {
   margin-left: 70px;
 }
 
-.login{
+.login {
   color: rgba(236, 187, 43, 0.5);
 }
