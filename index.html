@@ -51,12 +51,32 @@
       </div>
     </div>
     <!-- </section> -->
+    
 
-    <!-- <span class="alert"> 
-      Hello, <br>
-      Welcome to Geecore Limited
-      <button onclick="welcome"> X </button>
-    </span> -->
-    <script src="/script.js"></script>
+<span id="hello" > 
+  <div class="one">
+     Hello, <br> 
+     Welcome to Geecore Limited
+  </div>
+ <div class="cta"> 
+    <button class="cta-one"> <a href="/table.html"> Take a tour </a> </button>
+ </div>
+
+ <div>
+    <button class="cta-two" onclick="message()"> X </button>
+ </div>
+
+</span>
+    <script> 
+
+    let anime = document.querySelector('#hello');
+
+function message() {
+    anime.style.display ='none';
+}
+    
+    </script>
+
   </body>
+  <!-- <script src="script.js"></script> -->
 </html>
